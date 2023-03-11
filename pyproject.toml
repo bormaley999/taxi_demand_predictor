@@ -12,6 +12,7 @@ lux-api = "^0.5.1"
 seaborn = "^0.12.2"
 requests = "^2.28.2"
 pyarrow = "^11.0.0"
+tqdm = "^4.65.0"
 
 
 [build-system]

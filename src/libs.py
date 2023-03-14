@@ -8,7 +8,7 @@ import seaborn as sns
 import os
 import sys
 import warnings
-import lux
+#import lux turned off for now -> makes sense for the EDA part, not for the other notebooks
 import tqdm
 import requests
 from typing import List, Optional

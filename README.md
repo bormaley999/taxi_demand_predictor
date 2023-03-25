@@ -14,4 +14,5 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - smth
 
 ## TO DO's
-- add feature engineering 
+- Added a simple Feature Importance job for 07_xboost_model.ipynb notebook;
+- Used 8 weeks dataset for training as an extintion of the previous 4 weeks dataset;

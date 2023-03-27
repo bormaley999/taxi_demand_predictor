@@ -4,6 +4,7 @@ This repo is subject to change:
 - Add some visuals;
 - Other funcy or not so fancy stuff;
 
+
 ## Data Source
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
@@ -13,6 +14,15 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - smth
 - smth
 
-## TO DO's
-- Added a simple Feature Importance job for 07_xboost_model.ipynb notebook;
-- Used 8 weeks dataset for training as an extintion of the previous 4 weeks dataset;
+
+## To Do's
+- Use Feature Importance for 8 weeks of data - XGBoost;
+- Use Feature Importance for 4 weeks of data - LighGBM;
+- Use Feature Importance for 8 weeks of data - LighGBM;
+- Visualize Feature Importance via SHAP(neet to fix Poetry dependencies);
+
+
+
+## Done (extra to the original task)
+- Added a simple Feature Importance job for `07_xboost_model.ipynb` notebook;
+- Used 8 weeks dataset for training as an extension of the previous 4 weeks dataset;

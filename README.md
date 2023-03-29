@@ -20,6 +20,10 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Use Feature Importance for 4 weeks of data - LighGBM;
 - Use Feature Importance for 8 weeks of data - LighGBM;
 - Visualize Feature Importance via SHAP(neet to fix Poetry dependencies);
+- Test Exponential Smoothing;
+- Test Prophet;
+- Test ARIMA;
+- Test SARIMA;
 
 
 

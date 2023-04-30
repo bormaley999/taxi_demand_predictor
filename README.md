@@ -16,10 +16,10 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 
 ## To Do's
-- Use Feature Importance for 8 weeks of data - XGBoost;
-- Use Feature Importance for 4 weeks of data - LighGBM;
-- Use Feature Importance for 8 weeks of data - LighGBM;
-- Visualize Feature Importance via SHAP(neet to fix Poetry dependencies);
+- [x]Use Feature Importance for 8 weeks of data - XGBoost;
+- [x]Use Feature Importance for 4 weeks of data - LighGBM;
+- [x]Use Feature Importance for 8 weeks of data - LighGBM;
+- Visualize Feature Importance via SHAP(need to fix Poetry dependencies);
 - Test Exponential Smoothing;
 - Test Prophet;
 - Test ARIMA;
@@ -30,3 +30,4 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 ## Done (extra to the original task)
 - Added a simple Feature Importance job for `07_xboost_model.ipynb` notebook;
 - Used 8 weeks dataset for training as an extension of the previous 4 weeks dataset;
+- Used my feature importance apporach, to check with the original approach used by Paulo

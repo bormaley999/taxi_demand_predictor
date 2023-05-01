@@ -11,7 +11,8 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 ## Notes Section
 - I've used Python Poetry (`.toml` file) to keep all the dependencies clear and concise. 
 - Use this slackthread if encountered problems with Poetry: https://stackoverflow.com/questions/70003829/poetry-installed-but-poetry-command-not-found
-- smth
+- Used Optuna for Hyperparameter Tuning
+- For MacOS (Monterey 12.6) users you'll likely have to fight with LightGBM install (stackoverflow will help you)
 - smth
 
 
@@ -24,6 +25,9 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Test Prophet;
 - Test ARIMA;
 - Test SARIMA;
+- Test Weights and Biases tool
+- Test MLFlow for MLOPS tasks
+- Test DataIKU for MLOPS tasks
 
 
 

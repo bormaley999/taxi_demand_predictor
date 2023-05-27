@@ -13,7 +13,8 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Use this slackthread if encountered problems with Poetry: https://stackoverflow.com/questions/70003829/poetry-installed-but-poetry-command-not-found
 - Used Optuna for Hyperparameter Tuning
 - For MacOS (Monterey 12.6) users you'll likely have to fight with LightGBM install (stackoverflow will help you)
-- smth
+- To fix depedenecies issues with Hopsworks, I've used the following command: `pip install setuptools` (upgrade if needed) and `pip install great_expectations` (upgrade if needed)
+Also, I've installed it on my local env - I'll update poetry file later on
 
 
 ## To Do's
@@ -27,7 +28,7 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Test SARIMA;
 - Test Weights and Biases tool
 - Test MLFlow for MLOPS tasks
-- Test DataIKU for MLOPS tasks
+- Test DataIKU for MLOPS tasks (deprioritized, bc need to install DataIKU plugins)
 
 
 

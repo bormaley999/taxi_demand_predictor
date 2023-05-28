@@ -13,8 +13,8 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Use this slackthread if encountered problems with Poetry: https://stackoverflow.com/questions/70003829/poetry-installed-but-poetry-command-not-found
 - Used Optuna for Hyperparameter Tuning
 - For MacOS (Monterey 12.6) users you'll likely have to fight with LightGBM install (stackoverflow will help you)
-- To fix depedenecies issues with Hopsworks, I've used the following command: `pip install setuptools` (upgrade if needed) and `pip install great_expectations` (upgrade if needed)
-Also, I've installed it on my local env - I'll update poetry file later on
+- To fix depedenecies issues (for local env) with Hopsworks, I've used the following command: `pip install setuptools` (upgrade if needed) and `pip install great_expectations` (upgrade if needed)
+**Important!** Also, I've installed it on my local env - I'll update poetry file later on -> Upd. w\o poetry it works fine, but `poetry add hopsworks` command still returns an error - it doesn't allow GitHub Actions to work properly. I'm looking how to fix it.
 
 
 ## To Do's
